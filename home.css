@@ -1,0 +1,306 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --green:#16a085;
+    --black:#444;
+    --light-color:#777;
+    --box-shadow:.5rem .5rem 0 rgba(22,160,133,.2);
+    --text-shadow:.4rem .4rem 0 rgba(0,0,0,.2);
+    --border: .2rem solid var(--green);
+}
+
+*{
+    font-family: 'poppins',sans-serif;
+    margin: 0px; padding: 0px;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-transform: capitalize;
+    transition: all .2s ease-out;
+    text-decoration:none ;
+    
+    }
+    .containr{
+    width: 100%;
+    height: 90%;
+    background-image: url(images/cmc3d1.jpg);
+    background-position: center;
+    background-size: cover;
+    padding: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+    
+    }
+    html{
+        font-size:62.5%;
+        overflow-x: hidden;
+        scroll-padding-top: 7rem;
+        scroll-behavior: smooth;
+    }
+
+   
+
+  .header {
+    top: 0;
+    left: 0px; 
+    position:fixed;
+    cursor: pointer;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+    box-shadow: 0.5rem 1.5rem rgba(38, 36, 36, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgb(239, 191, 224);
+  }
+  .header .logo {
+    margin-inline-end: auto;
+    width: 70px;
+    cursor: pointer;
+    padding-left: 0px;
+   /* display: flex;
+    justify-content: flex-start; */
+  }
+  .logo {
+    margin-left: 10px;
+
+
+  }
+
+  .header-link {
+    position: relative;
+    padding-block: 24px;
+    padding-inline: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 8px;
+  }
+  .header-link {
+    gap: 20px;
+  }
+  
+  
+  .link{
+    text-decoration: none;
+        color: #000000;
+        font-size: 25px;
+        text-transform: uppercase;
+        padding-right: 50px ;
+        font-weight: 900;
+        position: relative;
+        margin-left: 40px;
+  }
+  .link:hover {
+    color: #ffffff;
+    transition: all 0.4s ease 0s ;
+}
+    
+    /* ----title---------- */
+
+   
+    .title h1{
+        font-size: 50px;
+        margin-top: 300px;
+        text-align: left;
+        color:yellow;
+    }
+    .title p{
+        font-size: 30px;
+        color: rgb(67, 240, 226);
+        text-shadow: #690ed0;
+        font-style: italic;
+    }
+
+
+    /* ------content----------- */
+    .content h1{
+        font-size: 40px;
+        margin-top:10px;
+        text-align: right;
+        color: #141415;
+        margin-left: 50px;
+        font-style: italic;
+
+    }
+   
+   .hed{
+       text-align: center;
+       height: 7%;
+       background-color:white;
+       justify-content: center;
+       align-items: center;
+       text-decoration: solid;
+       text-transform: var(--box-shadow);
+
+    }
+    .hed h2{
+        font-size: 40px;
+        color: #000000;
+        margin-bottom: 5px;
+        margin-top: 50px;
+        padding-top: 5px;
+    }
+
+    
+    /* =-==========avaiable sevices=========================== */
+    .Services{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #f6d0d0;
+        height: 75%;
+        padding-top: 100px;
+        
+    }
+    .card{
+        width:300px;
+        height: 350px;
+        border: 3px solid #000000;
+        padding: 100px 100px;
+        box-sizing: border-box;
+        box-shadow: #5d5d67;
+        cursor: pointer;
+        margin: 10px 15px;
+        background-color: rgb(222, 172, 204);
+        color: rgb(193, 254, 10);
+        background-position: center;
+        background-size: cover;
+        border-radius: 50%;
+        align-items: center;
+        margin-bottom:80px;
+        margin-right: 20px;
+        
+    }
+    .card:hover{
+        background-color: #63084c;
+        transition: all 0.5s ease 0s ;
+    }
+  
+   .card p{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-shadow: 0 0 15px #ffffff;
+   }
+   .card h5{
+    font-size: 25px;
+    margin-bottom: 10px;
+   }
+.card button{
+        color: #ffffff;
+        font-size: 20px;
+        height: 30%;
+        width: 80%;
+        text-align: center;
+        align-items: center;
+        margin-top: 50px;
+        font-style: italic;
+        background-color: black;
+        border-radius: 15px;
+    }
+   .card button:hover{
+        background-color: white;
+        color: black;
+    }
+/* =================end of services================== */
+
+
+
+ /*===============about us=======*/
+
+ .about-section .aboutus{
+    font-size: 46px;
+    color: #cd7777;
+    text-shadow: 0.5rem .4rem 0px rgba(0, 0, 0, 0.2);
+    text-align: center;
+
+}
+.about-section.about{
+   display: flex;
+    align-items: center;
+
+}
+
+.about-section .about .about-left{
+    width: 100%;
+    flex:1;
+    margin-right: 40px;
+    overflow: hidden;
+    height: 600px;
+    
+}
+.about-section .about .about-left img{
+    width: 100%;
+    transition: 0.5s ease;
+    display: block;
+    height: auto;
+}
+.about-section .about .about-left img:hover img{
+    transform: scale(1.2);
+}
+.about-section .about .about-right{
+    width: 100%;
+    text-align: justify;
+    padding: 70px;
+    background-color: #02b254;
+}
+.about-section .about .about-right h2{
+    font-size: 30px;
+    color: rgb(154, 23, 32);
+    text-decoration: none;
+   text-transform: none;
+   text-align: center;
+   text-shadow: 0.5rem .4rem 0px rgba(0, 0, 0, 0.2);
+}
+.about-section .about .about-right p{
+    font-size: 20px;
+    color: rgb(7, 5, 5);
+    text-decoration: none;
+   text-transform: none;
+}
+
+    /* ==============footer==================== */
+.footer-section{
+    width: 100%;
+    height: 70%;
+    background-color: #15eccc;
+}
+ h1{
+    text-align: center;
+    font-size: 45px; ; 
+    font-weight: 900;
+    text-shadow: 4rem .4rem 0rgba(113,111,111,.2);
+    letter-spacing: .3rem;
+    font-weight: bold;
+    color: #444;
+ }
+.footer-section .container{
+    display: flex;
+    padding: 100px;
+    background-image: #444;
+}
+.footer-section .container .box h3{
+    font-size: 35px;
+    padding: 15px 0;
+    color: #444;
+    font-weight: bold;
+}
+.footer-section .container .box{
+    width:25%;
+
+}
+.footer-section .container .box a{
+    display: block;
+    margin: 14px 0;
+    text-decoration: none;
+    color: #444;
+    font-size:17px;
+}
+.footer-section .container .box a:hover i{
+    padding-right: 30px;
+}
+.footer-section .container .box a i{
+    color: #16a085;
+    padding-right: 5px;
+    transition: .5s;
+}

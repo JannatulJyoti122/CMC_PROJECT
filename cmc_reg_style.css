@@ -1,0 +1,100 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body{
+    font-family: 'Robot',sans-serif;
+    background-image: url("images/1.png");
+    /*background-color: rgb(110, 202, 218);*/
+    background-size:cover;
+    display:flex;
+    height:100vh;
+    align-items:center;
+    justify-content:center;
+}
+.form{
+    width:400px;
+    font-size: 25px;
+    height:300px;
+    border:5px solid none;
+    padding:30px;
+    border-radius:10px;
+    outline:none;
+    border: 1px;
+    /*background-color:#e9caca;*/
+    padding: 8%;
+    padding-right: 8%;
+}
+input{
+    width:100%;
+    padding:10px;
+    outline:none;
+    border:none;
+    margin:6px 0px;
+    backdrop-filter: blur(100px);
+}
+#submit{
+    width:150px;
+    padding:6px;
+    cursor:pointer;
+}
+.from h2{
+    color:red;
+}
+.box{
+    background-color: rgba(0,0,0,0);
+    backdrop-filter: blur(100px);
+    text-shadow:black;
+    font-size: 25px;
+    color:rgb(68, 15, 182)
+}
+.header{
+    padding: 2rem 9%;
+    position:fixed;
+    cursor: pointer;
+    top: 0;left: 0;right: 0;
+    z-index: 1000;
+    box-shadow: 0.5rem 1.5rem rgba(0,0,0,.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: #e9caca;
+    
+}
+.navbar{
+    height: 0%;
+    display: flex;
+    align-items: center;
+    } 
+    .logo{
+        width: 80px;
+        cursor: pointer;
+        margin-right: 40px;
+        background: #e9caca;
+    }
+    nav{    
+        flex: 1;
+        text-align: right;
+    }
+    ul{
+        float:left;
+    }
+    nav li{
+        list-style: none;
+        display: inline-block;
+        margin-left: 100px;
+    
+    }
+    nav li a{
+        text-decoration: none;
+        color: #bd3838;
+        font-size: 30px;
+        text-transform: uppercase;
+        padding-right: 50px ;
+    }
+    nav li a:hover{
+        color: #690ed0;
+        transition: all 0.4s ease 0s ;
+    }
+    
